@@ -1,0 +1,604 @@
+{
+  "productos": [
+    {
+      "id": "pastel-de-papa",
+      "nombre": "Pastel de Papa",
+      "precio": 10000,
+      "categoria": "Menú Diario",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "suprema",
+      "nombre": "Suprema",
+      "precio": 10000,
+      "categoria": "Menú Diario",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "pechuga-grillada",
+      "nombre": "Pechuga Grillada",
+      "precio": 10000,
+      "categoria": "Menú Diario",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "costeleta-cerdo-riojana",
+      "nombre": "Costeleta de cerdo a la Riojana",
+      "precio": 10000,
+      "categoria": "Menú Diario",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-napolitana",
+      "nombre": "Hamburguesa a la napolitana",
+      "precio": 10000,
+      "categoria": "Menú Diario",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "costeleta-vaca-caballo",
+      "nombre": "Costeleta de Vaca a Caballo",
+      "precio": 12000,
+      "categoria": "Menú Diario",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "sorrentinos",
+      "nombre": "Sorrentinos",
+      "precio": 10000,
+      "categoria": "Menú Diario",
+      "descripcion": "Matambre, Jamón y Muzza, Pollo al Verdeo (Consultar variedades)",
+      "image": ""
+    },
+    {
+      "id": "crema-adicional",
+      "nombre": "Crema (Adicional)",
+      "precio": 3000,
+      "categoria": "Adicionales",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "azul-y-nuez",
+      "nombre": "Azul y nuez",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, roquefort, nuez y parmesano",
+      "image": ""
+    },
+    {
+      "id": "muzzarella",
+      "nombre": "Muzzarella",
+      "precio": 14000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella y parmesano",
+      "image": ""
+    },
+    {
+      "id": "muzza-nevada",
+      "nombre": "Muzza Nevada",
+      "precio": 15000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, huevo rallado y parmesano",
+      "image": ""
+    },
+    {
+      "id": "especial-nevada",
+      "nombre": "Especial Nevada",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, jamón rallado, huevo rallado, morrones y parmesano",
+      "image": ""
+    },
+    {
+      "id": "fugazzeta",
+      "nombre": "Fugazzeta",
+      "precio": 16000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, cebolla salteada y parmesano",
+      "image": ""
+    },
+    {
+      "id": "confitada",
+      "nombre": "Confitada",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, cebolla caramelizada y parmesano",
+      "image": ""
+    },
+    {
+      "id": "hawaiana",
+      "nombre": "Hawaiana",
+      "precio": 18000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, ananá, azúcar negra, cerezas y parmesano",
+      "image": ""
+    },
+    {
+      "id": "anchoas",
+      "nombre": "Anchoas",
+      "precio": 18000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, anchoas, morrón y parmesano",
+      "image": ""
+    },
+    {
+      "id": "rucula-pizza",
+      "nombre": "Rúcula",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, rúcula, jamón crudo, tomates cherry y parmesano",
+      "image": ""
+    },
+    {
+      "id": "provenzal",
+      "nombre": "Provenzal",
+      "precio": 15000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, ajo, perejil y parmesano",
+      "image": ""
+    },
+    {
+      "id": "azul-pizza",
+      "nombre": "Azul",
+      "precio": 16000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, roquefort y parmesano",
+      "image": ""
+    },
+    {
+      "id": "calabresa",
+      "nombre": "Calabresa",
+      "precio": 16000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, longaniza calabresa y parmesano",
+      "image": ""
+    },
+    {
+      "id": "abilu-pizza",
+      "nombre": "Abilú",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, verduras salteadas, panceta ahumada y parmesano",
+      "image": ""
+    },
+    {
+      "id": "doble-muzza",
+      "nombre": "Doble Muzza",
+      "precio": 15000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, doble muzzarella y parmesano",
+      "image": ""
+    },
+    {
+      "id": "especial-pizza",
+      "nombre": "Especial",
+      "precio": 16000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, jamón rallado, morrones y parmesano",
+      "image": ""
+    },
+    {
+      "id": "napolitana-pizza",
+      "nombre": "Napolitana",
+      "precio": 16000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, rodajas de tomate, provenzal, tomate y parmesano",
+      "image": ""
+    },
+    {
+      "id": "choclo-pizza",
+      "nombre": "Choclo",
+      "precio": 16000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, choclo en grano y parmesano",
+      "image": ""
+    },
+    {
+      "id": "4-quesos",
+      "nombre": "4 Quesos",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, roquefort, tybo y parmesano",
+      "image": ""
+    },
+    {
+      "id": "madagascar",
+      "nombre": "Madagascar",
+      "precio": 18000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, jamón rallado, palmitos, huevo rallado, salsa golf y parmesano",
+      "image": ""
+    },
+    {
+      "id": "especial-anchoas",
+      "nombre": "Especial Anchoas",
+      "precio": 18000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, jamón rallado, anchoas, morrón y parmesano",
+      "image": ""
+    },
+    {
+      "id": "cebolla-y-azul",
+      "nombre": "Cebolla y Azul",
+      "precio": 17000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, cebolla salteada, roquefort y parmesano",
+      "image": ""
+    },
+    {
+      "id": "champi-pizza",
+      "nombre": "Champi",
+      "precio": 18000,
+      "categoria": "Pizzas",
+      "descripcion": "Salsa, muzzarella, champignon, morrón y parmesano",
+      "image": ""
+    },
+    {
+      "id": "milanesa-plato",
+      "nombre": "Milanesa",
+      "precio": 16000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-rucula",
+      "nombre": "Mila Rúcula",
+      "precio": 21000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, muzzarella, rúcula, jamón crudo y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-napolitana",
+      "nombre": "Mila Napolitana",
+      "precio": 19000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, salsa, jamón, muzzarella, tomate y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-fugazzeta",
+      "nombre": "Mila Fugazzeta",
+      "precio": 19000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, muzzarella, cebolla salteada y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-azul",
+      "nombre": "Mila Azul",
+      "precio": 19000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, queso roquefort y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-a-caballo",
+      "nombre": "Mila a Caballo",
+      "precio": 19000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, dos huevos fritos y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-cheddar",
+      "nombre": "Mila Cheddar",
+      "precio": 20000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, cheddar y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-champi",
+      "nombre": "Mila Champi",
+      "precio": 21000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, muzzarella, champignon y papas",
+      "image": ""
+    },
+    {
+      "id": "mila-suiza",
+      "nombre": "Mila Suiza",
+      "precio": 20000,
+      "categoria": "Milanesas al plato",
+      "descripcion": "Milanesa de vaca, muzzarella, roquefort, tybo, parmesano y papas",
+      "image": ""
+    },
+    {
+      "id": "empanadas-arabes-docena",
+      "nombre": "Empanadas Árabes (Docena)",
+      "precio": 18000,
+      "categoria": "Empanadas",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "empanadas-arabes-media",
+      "nombre": "Empanadas Árabes (Media Docena)",
+      "precio": 11000,
+      "categoria": "Empanadas",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-completa",
+      "nombre": "Completa",
+      "precio": 16000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, lechuga, tomate, queso, jamón y huevo",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-abilu",
+      "nombre": "Abilú",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, verduras salteadas, panceta y cheddar",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-blue",
+      "nombre": "Blue",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, roquefort, cebolla morada, panceta y rúcula",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-hot",
+      "nombre": "Hot",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, cheddar, lechuga, panceta, tomate, cebolla morada y ají",
+      "image": ""
+    },
+    {
+      "id": "cheesy-bacon",
+      "nombre": "Cheesy bacon",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, doble cheddar y panceta",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-premium",
+      "nombre": "Premium",
+      "precio": 19000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Molleja, tomate, queso tybo, rúcula y huevo",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-verde",
+      "nombre": "Verde",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, cheddar, palta, tomate, cebolla morada y rúcula",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-tropical",
+      "nombre": "Tropical",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, ananá, panceta, tomate y cheddar",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-bosque",
+      "nombre": "Bosque",
+      "precio": 22000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, champignon, cebolla morada, crema, rúcula, palta y tomate",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-mediterranea",
+      "nombre": "Mediterranea",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, queso tybo, aceitunas negras, tomate y alioli",
+      "image": ""
+    },
+    {
+      "id": "salmonetta",
+      "nombre": "Salmonetta",
+      "precio": 22000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Salmón, queso crema, rúcula, palta y tomate",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-fundida",
+      "nombre": "Fundida",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, cheddar, queso tybo, muzzarella, provoleta",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-criolla",
+      "nombre": "Criolla",
+      "precio": 16000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de carne, jamón, huevo y salsa criolla",
+      "image": ""
+    },
+    {
+      "id": "hamburguesa-crispy",
+      "nombre": "Crispy",
+      "precio": 17000,
+      "categoria": "Hamburguesas",
+      "descripcion": "Doble medallón de pollo, tomate, lechuga, jamón, queso y huevo",
+      "image": ""
+    },
+    {
+      "id": "medallon-extra",
+      "nombre": "Medallón extra",
+      "precio": 3000,
+      "categoria": "Adicionales",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "lomo-completo",
+      "nombre": "Lomo Completo",
+      "precio": 18500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso y huevo",
+      "image": ""
+    },
+    {
+      "id": "lomo-cerdo",
+      "nombre": "Lomo de Cerdo",
+      "precio": 16500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, lomo de cerdo, lechuga, tomate, jamón, queso y huevo",
+      "image": ""
+    },
+    {
+      "id": "lomo-tropical",
+      "nombre": "Lomo Tropical",
+      "precio": 19500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y ananá",
+      "image": ""
+    },
+    {
+      "id": "lomo-champi",
+      "nombre": "Lomo Champi",
+      "precio": 19500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y champignon",
+      "image": ""
+    },
+    {
+      "id": "lomo-azul",
+      "nombre": "Lomo Azul",
+      "precio": 19500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y roquefort",
+      "image": ""
+    },
+    {
+      "id": "sandwich-mila",
+      "nombre": "Sandwich de Mila",
+      "precio": 18500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, milanesa de carne, lechuga, tomate, jamón, queso y huevo",
+      "image": ""
+    },
+    {
+      "id": "sandwich-molleja",
+      "nombre": "Molleja",
+      "precio": 26500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, molleja, lechuga, tomate, jamón, queso y huevo",
+      "image": ""
+    },
+    {
+      "id": "lomo-abilu",
+      "nombre": "Lomo Abilu",
+      "precio": 19500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, verduras salteadas y panceta",
+      "image": ""
+    },
+    {
+      "id": "sandwich-vegetariano",
+      "nombre": "Vegetariano",
+      "precio": 15000,
+      "categoria": "Sandwiches",
+      "descripcion": "Queso Azul, tomates asados, tybo, huevo y rúcula",
+      "image": ""
+    },
+    {
+      "id": "lomo-pollo",
+      "nombre": "Lomo Pollo",
+      "precio": 16500,
+      "categoria": "Sandwiches",
+      "descripcion": "Pan casero, mayonesa casera, bife de pollo, lechuga, tomate, jamón, queso y huevo",
+      "image": ""
+    },
+    {
+      "id": "menu-infantil",
+      "nombre": "Menú Infantil",
+      "precio": 11000,
+      "categoria": "Menú Infantil",
+      "descripcion": "Burger con Cheddar, papas y un jugo",
+      "image": ""
+    },
+    {
+      "id": "papas-fritas-chica",
+      "nombre": "Papas fritas (Chica)",
+      "precio": 7000,
+      "categoria": "Papas Fritas",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "papas-fritas-grande",
+      "nombre": "Papas fritas (Grande)",
+      "precio": 10000,
+      "categoria": "Papas Fritas",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "papas-cheddar-panceta",
+      "nombre": "Papas con cheddar y panceta",
+      "precio": 12000,
+      "categoria": "Papas Fritas",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "ensalada-completa",
+      "nombre": "Ensalada Completa",
+      "precio": 13000,
+      "categoria": "Ensaladas",
+      "descripcion": "Lechuga, tomate, cebolla, huevo, zanahoria, jamón, queso, choclo y palmitos",
+      "image": ""
+    },
+    {
+      "id": "ensalada-mixta",
+      "nombre": "Ensalada Mixta",
+      "precio": 6500,
+      "categoria": "Ensaladas",
+      "descripcion": "Lechuga, tomate, cebolla, huevo y zanahoria",
+      "image": ""
+    },
+    {
+      "id": "ensalada-rucula",
+      "nombre": "Ensalada Rúcula",
+      "precio": 7500,
+      "categoria": "Ensaladas",
+      "descripcion": "Hojas de rúcula, hebras de parmesano y huevo",
+      "image": ""
+    },
+    {
+      "id": "rabas",
+      "nombre": "Rabas",
+      "precio": 21000,
+      "categoria": "Otros Platos",
+      "descripcion": null,
+      "image": ""
+    },
+    {
+      "id": "budin-de-pan",
+      "nombre": "Budín de pan",
+      "precio": 4500,
+      "categoria": "Postres",
+      "descripcion": null,
+      "image": ""
+    }
+  ]
+}

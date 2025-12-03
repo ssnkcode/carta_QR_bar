@@ -1,0 +1,32 @@
+### 🎨 Diseño y Estética
+* *Diseño General:* Crear un diseño nuevo y *más atractivo* utilizando una paleta de colores de *negro y blanco*.
+* *Códigos QR:* Generar un nuevo *código QR* para el menú actualizado.
+* *Tipografía Destacada:* Poner en un tamaño más grande la frase: *CONSULTAR VARIEDADES DE MENÚ*.
+
+---
+
+### 💰 Precios
+* *Aumento General:* Aumentar el precio de las *Papas Fritas* en *$1000* (en todas sus variedades).
+* *Edición de Precios Específicos:* Editar los precios que lo requieran (ya cubierto por los cambios específicos).
+
+---
+
+### 🍔 Modificación de Platos y Nombres (Edición de la Carta)
+* *Hamburguesas (Burger):*
+    * *Cambio de Terminología:* Reemplazar la palabra *"Burger Patty"* por *"Hamburguesa"*.
+    * *Cambio de Descripción:* En la descripción de cada hamburguesa, reemplazar la palabra *"patys"* por *"doble medallón de carne"* (o similar, como se solicitó: "doble mediación de carne").
+    * *Eliminación:* Sacar del menú la *Burger XXL* y la *Burger Molleja*.
+* *Pizzas:*
+    * *Agregados:* Asegurar la inclusión de las variedades *Muzza* y *Calabresa*.
+* *Postres:*
+    * *Restricción:* En el sector Postres, dejar *solo Budín de Pan* con un precio de *$4500*.
+* *Otros Platos (General):*
+    * *Agregar:* Incluir las *Ensaladas* (ya que actualmente faltan).
+    * *Agregar:* Incluir las *Rabas* (como plato que se vende).
+    * *Agregar:* Incluir la *Costeleta de Vaca a Caballo* con un precio de *$12000*.
+
+---
+
+### 🔄 Revisión de Contenido
+* *Revisión General:* Asegurar la *modificación de diseño* y la *corrección de la carta* (incluyendo precios y contenido).
+* *Cambios de Contenido:* Eliminar o agregar *cosas* faltantes o sobrantes de la carta (ya cubierto por los puntos anteriores).
