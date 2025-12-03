@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Carrito Abilu</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/main.js"></script>
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1 class="neon-title" id="mainTitle">THE CLASSIC BAR</h1>
+        <img src="./src/img/logo.png" class="logo" alt="The Classic Bar Logo" />
+        <p class="subtitle">DRINKS & FOOD - EST. 2025</p>
+        <p class="subtitle">Cocinando con Amor desde 2022</p>
+        <p class="subtitle">BIALET MASSE</p>
+    </header>
+
+    <nav class="category-nav" id="desktopNav">
+        <button class="filter-btn active" data-category="all">Todo</button>
+        <button class="filter-btn" data-category="menu-diario">Menú Diario</button>
+        <button class="filter-btn" data-category="pizzas">Pizzas</button>
+        <button class="filter-btn" data-category="milanesas">Milanesas</button>
+        <button class="filter-btn" data-category="burgers">Hamburguesas</button>
+        <button class="filter-btn" data-category="sandwiches">Sandwiches</button>
+        <button class="filter-btn" data-category="empanadas">Empanadas</button>
+        <button class="filter-btn" data-category="papas-fritas">Papas Fritas</button>
+        <button class="filter-btn" data-category="ensaladas">Ensaladas</button>
+        <button class="filter-btn" data-category="menu-infantil">Infantil</button>
+        <button class="filter-btn" data-category="postres">Postres</button>
+        <button class="filter-btn" data-category="otros">Otros</button>
+        <button class="filter-btn carta-btn" data-category="carta" id="cartaBtn">📄 Carta PDF</button>
+    </nav>
+
+    <button class="hamburger-btn" id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <div class="nav-mobile-container" id="mobileNav">
+        <div class="nav-mobile-header">
+            <h3>📋 CATEGORÍAS</h3>
+        </div>
+        <div class="nav-mobile-buttons"></div>
+    </div>
+
+    <div class="columns-container" id="columnsContainer"></div>
+
+    <main class="menu-container" id="menuList">
+        <div id="subcategoriesContainer"></div>
+        <div id="mainMenuContainer"></div>
+    </main>
+
+    <div class="carta-container" id="cartaContainer" style="display: none;">
+        <div class="carta-header">
+            <h2>📄 Carta Completa</h2>
+            <p>Descarga nuestro menú completo en formato PDF</p>
+        </div>
+        
+        <div class="pdf-viewer">
+            <iframe 
+                src="./src/Carta.pdf" 
+                class="pdf-iframe" 
+                id="pdfViewer"
+                title="Carta PDF"
+            >
+                <p>Tu navegador no soporta la visualización de PDFs. 
+                    <a href="./src/Carta.pdf" class="download-link" download>
+                        Descarga la carta aquí
+                    </a>
+                </p>
+            </iframe>
+        </div>
+        
+        <div class="carta-actions">
+            <a href="./src/Carta.pdf" class="download-btn" download>
+                📥 DESCARGAR PDF
+            </a>
+            <button class="back-btn" id="backFromCartaBtn">Volver al Menú</button>
+        </div>
+    </div>
+
+    <div class="photo-modal" id="photoModal">
+        <button class="close-modal" id="closeModal">&times;</button>
+        <div class="modal-content">
+            <img class="modal-image" id="modalImage" src="" alt="Foto del producto" />
+            <div class="modal-info">
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <p class="modal-desc" id="modalDesc"></p>
+                <div class="modal-price" id="modalPrice"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>THE CLASSIC BAR - DRINKS & FOOD - EST. 2025</p>
+    </footer>
+</body>
+</html>

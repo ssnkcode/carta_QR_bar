@@ -4,103 +4,120 @@
         "nombre": "Pastel de Papa",
         "precio": 10000,
         "categoria": "Menú Diario",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/PASTEL_DE_PAPA.png"
       },
       {
         "nombre": "Suprema",
         "precio": 10000,
         "categoria": "Menú Diario",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/SUPREMA.webp"
       },
       {
         "nombre": "Pechuga Grillada",
         "precio": 10000,
         "categoria": "Menú Diario",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/PECHUGA.webp"
       },
       {
         "nombre": "Costeleta de cerdo a la Riojana",
         "precio": 10000,
         "categoria": "Menú Diario",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/Costeleta_de_cerdo_a_la_Riojana.jpg"
       },
       {
         "nombre": "Hamburguesa a la napolitana",
         "precio": 10000,
         "categoria": "Menú Diario",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/HAMBURGUESA_NAPO.jpg"
       },
       {
         "nombre": "Costeleta de Vaca a Caballo",
         "precio": 12000,
         "categoria": "Menú Diario",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/costeleta_de_Vaca_a_Caballo.png"
       },
       {
         "nombre": "Sorrentinos",
         "precio": 10000,
         "categoria": "Menú Diario",
-        "descripcion": "Matambre, Jamón y Muzza, Pollo al Verdeo (Consultar variedades)"
+        "descripcion": "Matambre, Jamón y Muzza, Pollo al Verdeo (Consultar variedades)",
+        "image": "./src/img/productos/SORRENTINOS.avif"
       },
       {
         "nombre": "Crema (Adicional)",
         "precio": 3000,
         "categoria": "Adicionales",
-        "descripcion": null
+        "descripcion": null,
+        "image": "./src/img/productos/CREMA.jpg"
       },
       {
         "nombre": "Azul y nuez",
         "precio": 17000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, roquefort, nuez y parmesano"
+        "descripcion": "Salsa, muzzarella, roquefort, nuez y parmesano",
+        "image": "./src/img/productos/AZUL_Y_NUEZ.png"
       },
       {
         "nombre": "Muzzarella",
         "precio": 14000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella y parmesano"
+        "descripcion": "Salsa, muzzarella y parmesano",
+        "image": "./src/img/productos/MUZZA.jpg"
       },
       {
         "nombre": "Muzza Nevada",
         "precio": 15000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, huevo rallado y parmesano"
+        "descripcion": "Salsa, muzzarella, huevo rallado y parmesano",
+        "image": "./src/img/productos/MUZZA_NEVADA.jpg"
       },
       {
         "nombre": "Especial Nevada",
         "precio": 17000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, jamón rallado, huevo rallado, morrones y parmesano"
+        "descripcion": "Salsa, muzzarella, jamón rallado, huevo rallado, morrones y parmesano",
+        "image": "./src/img/productos/ESPECIAL_NEVADA.jpg"
       },
       {
         "nombre": "Fugazzeta",
         "precio": 16000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, cebolla salteada y parmesano"
+        "descripcion": "Salsa, muzzarella, cebolla salteada y parmesano",
+        "image": "./src/img/productos/FUGAZZETA.jpg"
       },
       {
         "nombre": "Confitada",
         "precio": 17000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, cebolla caramelizada y parmesano"
+        "descripcion": "Salsa, muzzarella, cebolla caramelizada y parmesano",
+        "image": "./src/img/productos/CONFITADA.png"
       },
       {
         "nombre": "Hawaiana",
         "precio": 18000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, ananá, azúcar negra, cerezas y parmesano"
+        "descripcion": "Salsa, muzzarella, ananá, azúcar negra, cerezas y parmesano",
+        "image": "./src/img/productos/HAWAIANA.jpg"
       },
       {
         "nombre": "Anchoas",
         "precio": 18000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, anchoas, morrón y parmesano"
+        "descripcion": "Salsa, muzzarella, anchoas, morrón y parmesano",
+        "image": "./src/img/productos/ANCHOAS.jpg"
       },
       {
         "nombre": "Rúcula",
         "precio": 17000,
         "categoria": "Pizzas",
-        "descripcion": "Salsa, muzzarella, rúcula, jamón crudo, tomates cherry y parmesano"
+        "descripcion": "Salsa, muzzarella, rúcula, jamón crudo, tomates cherry y parmesano",
+        "image": "./src/img/productos/RUCULA.jpg"
       },
       {
         "nombre": "Provenzal",
