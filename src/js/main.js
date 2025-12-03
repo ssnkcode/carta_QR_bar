@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const mainTitle = document.getElementById("mainTitle");
     const subcategoriesContainer = document.getElementById("subcategoriesContainer");
     const mainMenuContainer = document.getElementById("mainMenuContainer");
+    const menuContainer = document.getElementById("menu-container") || mainMenuContainer;
     
     const photoModal = document.getElementById("photoModal");
     const modalImage = document.getElementById("modalImage");
@@ -288,47 +289,107 @@ document.addEventListener("DOMContentLoaded", () => {
         mainMenuContainer.innerHTML = itemsHTML;
         attachDynamicListeners(mainMenuContainer);
     }
-  
-    function showSubcategory(categoryKey) {
+
+    // ==============================================
+    // FUNCIONES PARA FILTRADO (AGREGADAS)
+    // ==============================================
+
+    function backToMainMenu() {
+      console.log("Volviendo al menú principal");
+      
       // Si estamos en carta, ocultarla primero
-      if (cartaContainer.style.display === "block") {
+      if (cartaContainer && cartaContainer.style.display === "block") {
         hideCarta();
       }
       
-      mainMenuContainer.style.display = "none";
-      subcategoriesContainer.style.display = "block";
+      // Mostrar todos los productos
+      const allProducts = loadedProducts.all || [];
+      renderMenuItems(allProducts);
+      
+      // Actualizar visibilidad
+      subcategoriesContainer.style.display = "none";
       subcategoriesContainer.innerHTML = "";
-  
-      const products = loadedProducts[categoryKey] || [];
-      const meta = categoryMetadata[categoryKey] || { title: categoryKey, description: "Productos de esta categoría" };
-  
-      let itemsHTML = "";
-      if (products.length > 0) {
-        products.forEach((item) => {
-          itemsHTML += createProductHTML(item);
-        });
-      } else {
-        itemsHTML = '<p class="no-products">No hay productos en esta categoría</p>';
+      if (mainMenuContainer) {
+        mainMenuContainer.style.display = "block";
       }
-  
-      subcategoriesContainer.innerHTML = `
-        <div class="subcategory-container" id="subcategory-${categoryKey}">
-          <div class="subcategory-header">
-            <h2>${meta.title}</h2>
-            <p>${meta.description}</p>
-          </div>
-          ${itemsHTML}
-          <button class="back-btn" id="backToMenuBtn">Volver al Menú Principal</button>
-        </div>
-      `;
-  
-      document.getElementById("backToMenuBtn").addEventListener("click", backToMainMenu);
-  
+      
+      // Resetear botones
       filterBtns.forEach((b) => b.classList.remove("active"));
-      const activeBtn = document.querySelector(`[data-category="${categoryKey}"]`);
+      if(filterBtns[0]) filterBtns[0].classList.add("active");
+      
+      // Actualizar título
+      const menuTitle = document.getElementById("menu-title");
+      if (menuTitle) {
+        menuTitle.textContent = "TODOS LOS PRODUCTOS";
+      }
+      
+      // Restaurar opacidad
+      document.querySelectorAll(".column-wrapper").forEach((wrapper) => {
+        wrapper.style.opacity = "1";
+      });
+    }
+
+    function showSubcategory(category) {
+      console.log("Mostrando subcategoría:", category);
+      
+      // Si estamos en carta, ocultarla primero
+      if (cartaContainer && cartaContainer.style.display === "block") {
+        hideCarta();
+      }
+      
+      // Obtener productos de esta categoría
+      const products = loadedProducts[category] || [];
+      console.log(`Productos para ${category}:`, products);
+      
+      // Renderizar los productos
+      renderMenuItems(products);
+      
+      // Actualizar título con formato bonito
+      const menuTitle = document.getElementById("menu-title");
+      if (menuTitle) {
+        // Convertir "menu-diario" a "MENÚ DIARIO", "papas-fritas" a "PAPAS FRITAS", etc.
+        const formattedCategory = category
+          .toUpperCase()
+          .replace(/-/g, ' ')
+          .replace('MENU', 'MENÚ');
+        menuTitle.textContent = formattedCategory;
+      }
+      
+      // Actualizar botones activos
+      filterBtns.forEach((b) => b.classList.remove("active"));
+      const activeBtn = document.querySelector(`[data-category="${category}"]`);
       if(activeBtn) activeBtn.classList.add("active");
-  
-      attachDynamicListeners(subcategoriesContainer);
+      
+      // Restaurar opacidad
+      document.querySelectorAll(".column-wrapper").forEach((wrapper) => {
+        wrapper.style.opacity = "1";
+      });
+    }
+
+    function renderMenuItems(products) {
+      console.log("Renderizando", products.length, "productos");
+      
+      // Usar mainMenuContainer como contenedor principal
+      const container = mainMenuContainer || document.getElementById("menu-container");
+      if (!container) {
+        console.error("No se encontró el contenedor del menú");
+        return;
+      }
+      
+      if (products.length === 0) {
+        container.innerHTML = '<div class="no-products">No hay productos en esta categoría</div>';
+        return;
+      }
+      
+      let html = '';
+      products.forEach(product => {
+        html += createProductHTML(product);
+      });
+      
+      container.innerHTML = html;
+      
+      // Re-asignar eventos
+      attachDynamicListeners(container);
     }
 
     function createProductHTML(item) {
@@ -391,15 +452,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   
-    function backToMainMenu() {
-      subcategoriesContainer.style.display = "none";
-      subcategoriesContainer.innerHTML = "";
-      mainMenuContainer.style.display = "block";
-  
-      filterBtns.forEach((b) => b.classList.remove("active"));
-      if(filterBtns[0]) filterBtns[0].classList.add("active");
-    }
-  
     function showProductPhoto(imgUrl, title, desc, price) {
       modalImage.src = imgUrl && imgUrl.trim() !== "" ? imgUrl : "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80";
       modalImage.alt = `Foto de ${title}`;
@@ -418,8 +470,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // FUNCIONES PARA CARTA PDF
     function showCarta() {
       // Ocultar menú principal y mostrar carta
-      document.getElementById("menuList").style.display = "none";
-      document.querySelector(".category-nav").style.display = "none";
+      if (mainMenuContainer) mainMenuContainer.style.display = "none";
+      subcategoriesContainer.style.display = "none";
       cartaContainer.style.display = "block";
       
       // Resetear todos los botones
@@ -451,8 +503,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function hideCarta() {
       // Mostrar menú principal y ocultar carta
-      document.getElementById("menuList").style.display = "block";
-      document.querySelector(".category-nav").style.display = "flex";
+      if (mainMenuContainer) mainMenuContainer.style.display = "block";
+      subcategoriesContainer.style.display = "none";
       cartaContainer.style.display = "none";
       
       // Resetear botones al estado inicial
@@ -491,7 +543,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Cargar datos
     loadMenuData();
-  
+
+    // Event listeners para los botones de filtro
     filterBtns.forEach((btn) => {
       btn.addEventListener("click", (e) => {
         // Prevenir eventos duplicados
