@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-  // ============================================
-  // 1. VARIABLES GLOBALES Y ELEMENTOS DOM
-  // ============================================
-  // Definimos esto al principio para que esté disponible en todo el código
   const hamburgerBtn = document.getElementById('hamburgerBtn');
   const navOverlay = document.getElementById('navOverlay');
   const mobileNav = document.getElementById('mobileNav');
@@ -28,15 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const pdfViewer = document.getElementById("pdfViewer");
   const backFromCartaBtn = document.getElementById("backFromCartaBtn");
 
-  // ============================================
-  // 2. LÓGICA DEL MENÚ HAMBURGUESA (MÓVIL)
-  // ============================================
   function initHamburgerMenu() {
       if (!hamburgerBtn || !desktopNav || !mobileButtonsContainer) return;
       
-      // Clonar botones del desktop al móvil
-      // Nota: Los clones se crean ANTES de que seleccionemos 'filterBtns' más abajo,
-      // por lo que la lógica de filtrado funcionará automáticamente en ellos.
       const buttons = desktopNav.querySelectorAll('.filter-btn:not(.carta-btn)');
       buttons.forEach(button => {
           const clone = button.cloneNode(true);
@@ -55,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
       
       function checkScreenSize() {
           if (window.innerWidth > 767) {
-              // Forzar cierre si pasamos a escritorio
               hamburgerBtn.classList.remove('active');
               navOverlay.classList.remove('active');
               mobileNav.classList.remove('active');
@@ -69,35 +58,25 @@ document.addEventListener("DOMContentLoaded", () => {
   
   initHamburgerMenu();
 
-  // ============================================
-  // 3. SELECCIÓN DE BOTONES (Desktop + Móvil)
-  // ============================================
-  // Importante: Esto selecciona tanto los botones originales como los clones creados arriba
   const filterBtns = document.querySelectorAll(".filter-btn");
 
-  // ============================================
-  // 4. DATOS Y CONFIGURACIÓN
-  // ============================================
   const categoryMetadata = {
-    "pizzas": { title: "🍕 Pizzas", description: "Hechas con masa casera e ingredientes frescos" },
-    "menu-diario": { title: "🍽️ Menú Diario", description: "Platos del día elaborados con ingredientes frescos" },
-    "milanesas": { title: "🥩 Milanesas al Plato", description: "Crujientes por fuera, jugosas por dentro" },
-    "empanadas": { title: "🥟 Empanadas", description: "Hechas al horno con masa casera" },
-    "burgers": { title: "🍔 Hamburguesas", description: "Las mejores hamburguesas artesanales" },
-    "sandwiches": { title: "🥪 Sandwiches y Lomos", description: "En pan casero y con los mejores ingredientes" },
-    "papas-fritas": { title: "🍟 Papas Fritas", description: "Para compartir o acompañar" },
-    "ensaladas": { title: "🥗 Ensaladas", description: "Opciones frescas y saludables" },
-    "postres": { title: "🍰 Postres", description: "El toque dulce para el final" },
-    "menu-infantil": { title: "👶 Menú Infantil", description: "Pensado para los más pequeños" },
-    "otros": { title: "🍽️ Otros Platos y Adicionales", description: "Variedades especiales de la casa" }
+    "pizzas": { title: "Pizzas", description: "Hechas con masa casera e ingredientes frescos" },
+    "menu-diario": { title: "Menú Diario", description: "Platos del día elaborados con ingredientes frescos" },
+    "milanesas": { title: "Milanesas al Plato", description: "Crujientes por fuera, jugosas por dentro" },
+    "empanadas": { title: "Empanadas", description: "Hechas al horno con masa casera" },
+    "burgers": { title: "Hamburguesas", description: "Las mejores hamburguesas artesanales" },
+    "sandwiches": { title: "Sandwiches y Lomos", description: "En pan casero y con los mejores ingredientes" },
+    "papas-fritas": { title: "Papas Fritas", description: "Para compartir o acompañar" },
+    "ensaladas": { title: "Ensaladas", description: "Opciones frescas y saludables" },
+    "postres": { title: "Postres", description: "El toque dulce para el final" },
+    "menu-infantil": { title: "Menú Infantil", description: "Pensado para los más pequeños" },
+    "otros": { title: "Otros Platos y Adicionales", description: "Variedades especiales de la casa" }
   };
 
   let loadedProducts = {};
   let allProductsList = [];
 
-  // ============================================
-  // 5. LÓGICA DE COLUMNAS ANIMADAS
-  // ============================================
   function initializeColumns() {
     const columnPositions = [
       { id: "col-left-1", class: "column-left-1" },
@@ -170,9 +149,6 @@ document.addEventListener("DOMContentLoaded", () => {
     adjustPdfViewerForMobile();
   }
   
-  // ============================================
-  // 6. CARGA DE DATOS (JSON)
-  // ============================================
   async function loadMenuData() {
     try {
       const response = await fetch('productos.json');
@@ -235,28 +211,56 @@ document.addEventListener("DOMContentLoaded", () => {
     renderMainMenu();
   }
 
-  // ============================================
-  // 7. RENDERIZADO Y NAVEGACIÓN
-  // ============================================
   function renderMainMenu() {
       mainMenuContainer.innerHTML = "";
       mainMenuContainer.style.display = "block";
       subcategoriesContainer.style.display = "none";
       
-      let itemsHTML = "";
-      allProductsList.forEach(item => {
-          itemsHTML += createProductHTML(item);
+      Object.keys(categoryMetadata).forEach(key => {
+        const products = loadedProducts[key];
+        
+        if (products && products.length > 0) {
+            const titleContainer = document.createElement("div");
+            titleContainer.className = "category-group-header";
+            titleContainer.style.width = "100%";
+            titleContainer.style.margin = "30px 0 15px 0";
+            titleContainer.style.borderBottom = "2px solid var(--neon-blue, #0ff)";
+            
+            const title = document.createElement("h2");
+            title.textContent = categoryMetadata[key].title;
+            title.style.color = "var(--neon-main, #fff)";
+            title.style.fontFamily = "'Orbitron', sans-serif";
+            title.style.fontSize = "1.8rem";
+            title.style.marginBottom = "10px";
+            title.style.textShadow = "0 0 10px rgba(0, 255, 255, 0.5)";
+            
+            titleContainer.appendChild(title);
+            mainMenuContainer.appendChild(titleContainer);
+
+            const itemsContainer = document.createElement("div");
+            itemsContainer.className = "category-group-items";
+            
+            let itemsHTML = "";
+            products.forEach(item => {
+                itemsHTML += createProductHTML(item);
+            });
+            itemsContainer.innerHTML = itemsHTML;
+            
+            mainMenuContainer.appendChild(itemsContainer);
+        }
       });
 
-      mainMenuContainer.innerHTML = itemsHTML;
+      if (mainMenuContainer.innerHTML === "") {
+        mainMenuContainer.innerHTML = '<div class="no-products">No hay productos disponibles</div>';
+      }
+
       attachDynamicListeners(mainMenuContainer);
   }
 
   function backToMainMenu() {
     if (cartaContainer && cartaContainer.style.display === "block") hideCarta();
     
-    const allProducts = loadedProducts.all || [];
-    renderMenuItems(allProducts);
+    renderMainMenu();
     
     subcategoriesContainer.style.display = "none";
     subcategoriesContainer.innerHTML = "";
@@ -291,6 +295,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = mainMenuContainer || document.getElementById("menu-container");
     if (!container) return;
     
+    container.style.display = "block"; 
+
     if (products.length === 0) {
       container.innerHTML = '<div class="no-products">No hay productos en esta categoría</div>';
       return;
@@ -361,9 +367,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ============================================
-  // 8. FUNCIONES MODAL Y CARTA
-  // ============================================
   function showProductPhoto(imgUrl, title, desc, price) {
     modalImage.src = imgUrl && imgUrl.trim() !== "" ? imgUrl : "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80";
     modalImage.alt = `Foto de ${title}`;
@@ -391,7 +394,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
     document.body.classList.add("carta-active");
     
-    // RUTA CARTA
     pdfViewer.src = "./src/Carta.pdf";
     
     document.querySelectorAll(".column-wrapper").forEach((wrapper) => {
@@ -432,20 +434,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   
-  // ============================================
-  // 9. EVENT LISTENERS E INICIALIZACIÓN
-  // ============================================
   initializeColumns();
   window.addEventListener("resize", handleResize);
   loadMenuData();
 
-  // -- LISTENER PRINCIPAL DE BOTONES DE FILTRO --
   filterBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
       
-      // ** SOLUCIÓN AQUÍ **
-      // Si el menú móvil está abierto, ciérralo forzosamente al hacer clic
       if (mobileNav && mobileNav.classList.contains('active')) {
            hamburgerBtn.classList.remove('active');
            navOverlay.classList.remove('active');
@@ -460,13 +456,9 @@ document.addEventListener("DOMContentLoaded", () => {
       
       const category = btn.getAttribute("data-category");
       
-      // Manejo visual de botones activos
-      // Lo hacemos buscando en todo el documento para que se actualicen
-      // tanto los del menú móvil como los del escritorio a la vez
       const allBtns = document.querySelectorAll('.filter-btn');
       allBtns.forEach(b => b.classList.remove("active"));
       
-      // Activamos los botones que correspondan a esta categoría (desktop y móvil)
       const activeBtns = document.querySelectorAll(`.filter-btn[data-category="${category}"]`);
       activeBtns.forEach(b => b.classList.add("active"));
       
