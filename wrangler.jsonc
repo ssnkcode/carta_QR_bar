@@ -1,6 +1,6 @@
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "mi-carta-digital",
+    "name": "carta-qr-bar",
     "compatibility_date": "2024-12-04",
     
     "assets": {
