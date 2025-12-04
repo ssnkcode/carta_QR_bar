@@ -5,7 +5,7 @@
         "precio": 10000,
         "categoria": "Menú Diario",
         "descripcion": null,
-        "image": "./src/img/productos/PASTEL_DE_PAPA.png"
+        "image": "./src/img/productos/PASTEL_DE_PAPA.webp"
       },
       {
         "nombre": "Suprema",
@@ -26,21 +26,21 @@
         "precio": 10000,
         "categoria": "Menú Diario",
         "descripcion": null,
-        "image": "./src/img/productos/Costeleta_de_cerdo_a_la_Riojana.jpg"
+        "image": "./src/img/productos/Costeleta_de_cerdo_a_la_Riojana.webp"
       },
       {
         "nombre": "Hamburguesa a la napolitana",
         "precio": 10000,
         "categoria": "Menú Diario",
         "descripcion": null,
-        "image": "./src/img/productos/HAMBURGUESA_NAPO.jpg"
+        "image": "./src/img/productos/HAMBURGUESA_NAPO.webp"
       },
       {
         "nombre": "Costeleta de Vaca a Caballo",
         "precio": 12000,
         "categoria": "Menú Diario",
         "descripcion": null,
-        "image": "./src/img/productos/costeleta_de_Vaca_a_Caballo.png"
+        "image": "./src/img/productos/costeleta_de_Vaca_a_Caballo.webp"
       },
       {
         "nombre": "Sorrentinos",
@@ -54,189 +54,189 @@
         "precio": 3000,
         "categoria": "Adicionales",
         "descripcion": null,
-        "image": "./src/img/productos/CREMA.jpg"
+        "image": "./src/img/productos/CREMA.webp"
       },
       {
         "nombre": "Azul y nuez",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, roquefort, nuez y parmesano",
-        "image": "./src/img/productos/AZUL_Y_NUEZ.png"
+        "image": "./src/img/productos/AZUL_Y_NUEZ.webp"
       },
       {
         "nombre": "Muzzarella",
         "precio": 14000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella y parmesano",
-        "image": "./src/img/productos/MUZZA.jpg"
+        "image": "./src/img/productos/MUZZA.webp"
       },
       {
         "nombre": "Muzza Nevada",
         "precio": 15000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, huevo rallado y parmesano",
-        "image": "./src/img/productos/MUZZA_NEVADA.jpg"
+        "image": "./src/img/productos/MUZZA_NEVADA.webp"
       },
       {
         "nombre": "Especial Nevada",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, jamón rallado, huevo rallado, morrones y parmesano",
-        "image": "./src/img/productos/ESPECIAL_NEVADA.jpg"
+        "image": "./src/img/productos/ESPECIAL_NEVADA.webp"
       },
       {
         "nombre": "Fugazzeta",
         "precio": 16000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, cebolla salteada y parmesano",
-        "image": "./src/img/productos/FUGAZZETA.jpg"
+        "image": "./src/img/productos/FUGAZZETA.webp"
       },
       {
         "nombre": "Confitada",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, cebolla caramelizada y parmesano",
-        "image": "./src/img/productos/CONFITADA.png"
+        "image": "./src/img/productos/CONFITADA.webp"
       },
       {
         "nombre": "Hawaiana",
         "precio": 18000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, ananá, azúcar negra, cerezas y parmesano",
-        "image": "./src/img/productos/HAWAIANA.jpg"
+        "image": "./src/img/productos/HAWAIANA.webp"
       },
       {
         "nombre": "Anchoas",
         "precio": 18000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, anchoas, morrón y parmesano",
-        "image": "./src/img/productos/ANCHOAS.jpg"
+        "image": "./src/img/productos/ANCHOAS.webp"
       },
       {
         "nombre": "Rúcula",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, rúcula, jamón crudo, tomates cherry y parmesano",
-        "image": "./src/img/productos/RUCULA.jpg"
+        "image": "./src/img/productos/RUCULA.webp"
       },
       {
         "nombre": "Provenzal",
         "precio": 15000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, ajo, perejil y parmesano",
-        "image": "./src/img/productos/PROVENZAL.jpg"
+        "image": "./src/img/productos/PROVENZAL.webp"
       },
       {
         "nombre": "Azul",
         "precio": 16000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, roquefort y parmesano",
-        "image": "./src/img/productos/AZUL.jpg"
+        "image": "./src/img/productos/AZUL.webp"
       },
       {
         "nombre": "Calabresa",
         "precio": 16000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, longaniza calabresa y parmesano",
-        "image": "./src/img/productos/CALABRESA.jpg"
+        "image": "./src/img/productos/CALABRESA.webp"
       },
       {
         "nombre": "Abilú",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, verduras salteadas, panceta ahumada y parmesano",
-        "image": "./src/img/productos/ABILU.jpg"
+        "image": "./src/img/productos/ABILU.webp"
       },
       {
         "nombre": "Doble Muzza",
         "precio": 15000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, doble muzzarella y parmesano",
-        "image": "./src/img/productos/DOBLE_MUZZA.png"
+        "image": "./src/img/productos/DOBLE_MUZZA.webp"
       },
       {
         "nombre": "Especial",
         "precio": 16000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, jamón rallado, morrones y parmesano",
-        "image": "./src/img/productos/ESPECIAL.jpg"
+        "image": "./src/img/productos/ESPECIAL.webp"
       },
       {
         "nombre": "Napolitana",
         "precio": 16000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, rodajas de tomate, provenzal, tomate y parmesano",
-        "image": "./src/img/productos/NAPO.jpg"
+        "image": "./src/img/productos/NAPO.webp"
       },
       {
         "nombre": "Choclo",
         "precio": 16000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, choclo en grano y parmesano",
-        "image": "./src/img/productos/CHOCLO.jpg"
+        "image": "./src/img/productos/CHOCLO.webp"
       },
       {
         "nombre": "4 Quesos",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, roquefort, tybo y parmesano",
-        "image": "./src/img/productos/4_QUESOS.png"
+        "image": "./src/img/productos/4_QUESOS.webp"
       },
       {
         "nombre": "Madagascar",
         "precio": 18000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, jamón rallado, palmitos, huevo rallado, salsa golf y parmesano",
-        "image": "./src/img/productos/PIZZA_MADAGASCAR.jpg"
+        "image": "./src/img/productos/PIZZA_MADAGASCAR.webp"
       },
       {
         "nombre": "Especial Anchoas",
         "precio": 18000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, jamón rallado, anchoas, morrón y parmesano",
-        "image": "./src/img/productos/ESPECIAL_ANCHOAS.jpg"
+        "image": "./src/img/productos/ESPECIAL_ANCHOAS.webp"
       },
       {
         "nombre": "Cebolla y Azul",
         "precio": 17000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, cebolla salteada, roquefort y parmesano",
-        "image": "./src/img/productos/CEBOLLA_Y_AZUL.jpg"
+        "image": "./src/img/productos/CEBOLLA_Y_AZUL.webp"
       },
       {
         "nombre": "Champi",
         "precio": 18000,
         "categoria": "Pizzas",
         "descripcion": "Salsa, muzzarella, champignon, morrón y parmesano",
-        "image": "./src/img/productos/CHAMPI.jpg"
+        "image": "./src/img/productos/CHAMPI.webp"
       },
       {
         "nombre": "Milanesa",
         "precio": 16000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca y papas",
-        "image": "./src/img/productos/MILANESA.png"
+        "image": "./src/img/productos/MILANESA.webp"
       },
       {
         "nombre": "Mila Rúcula",
         "precio": 21000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca, muzzarella, rúcula, jamón crudo y papas",
-        "image": "./src/img/productos/MILANESA_RUCULA.png"
+        "image": "./src/img/productos/MILANESA_RUCULA.webp"
       },
       {
         "nombre": "Mila Napolitana",
         "precio": 19000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca, salsa, jamón, muzzarella, tomate y papas",
-        "image": "./src/img/productos/MILANESA_NAPO.png"
+        "image": "./src/img/productos/MILANESA_NAPO.webp"
       },
       {
         "nombre": "Mila Fugazzeta",
         "precio": 19000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca, muzzarella, cebolla salteada y papas",
-        "image": "./src/img/productos/MILA_FUGAZZETA.png"
+        "image": "./src/img/productos/MILA_FUGAZZETA.webp"
       },
       {
         "nombre": "Mila Azul",
@@ -250,14 +250,14 @@
         "precio": 19000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca, dos huevos fritos y papas",
-        "image": "./src/img/productos/MILA_CABALLO.png"
+        "image": "./src/img/productos/MILA_CABALLO.webp"
       },
       {
         "nombre": "Mila Cheddar",
         "precio": 20000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca, cheddar y papas",
-        "image": "./src/img/productos/MILA_CHEDDAR.jpg"
+        "image": "./src/img/productos/MILA_CHEDDAR.webp"
       },
       {
         "nombre": "Mila Champi",
@@ -271,259 +271,259 @@
         "precio": 20000,
         "categoria": "Milanesas al plato",
         "descripcion": "Milanesa de vaca, muzzarella, roquefort, tybo, parmesano y papas",
-        "image": "./src/img/productos/MILA_SUIZA.jpg"
+        "image": "./src/img/productos/MILA_SUIZA.webp"
       },
       {
         "nombre": "Empanadas Árabes (Docena)",
         "precio": 18000,
         "categoria": "Empanadas",
         "descripcion": null,
-        "image": "./src/img/productos/EMP_ARABE.png"
+        "image": "./src/img/productos/EMP_ARABE.webp"
       },
       {
         "nombre": "Empanadas Árabes (Media Docena)",
         "precio": 11000,
         "categoria": "Empanadas",
         "descripcion": null,
-        "image": "./src/img/productos/EMP_ARABE.png"
+        "image": "./src/img/productos/EMP_ARABE.webp"
       },
       {
         "nombre": "Completa",
         "precio": 16000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, lechuga, tomate, queso, jamón y huevo",
-        "image": "./src/img/productos/HAMBURGUESA-COMPLETA.png"
+        "image": "./src/img/productos/HAMBURGUESA-COMPLETA.webp"
       },
       {
         "nombre": "Abilú",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, verduras salteadas, panceta y cheddar",
-        "image": "./src/img/productos/HAMBURGUESA-ABILU.png"
+        "image": "./src/img/productos/HAMBURGUESA-ABILU.webp"
       },
       {
         "nombre": "Blue",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, roquefort, cebolla morada, panceta y rúcula",
-        "image": "./src/img/productos/HAMBURGUESA-BLUE.png"
+        "image": "./src/img/productos/HAMBURGUESA-BLUE.webp"
       },
       {
         "nombre": "Hot",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, cheddar, lechuga, panceta, tomate, cebolla morada y ají",
-        "image": "./src/img/productos/HAMBURGUESA-HOT.png"
+        "image": "./src/img/productos/HAMBURGUESA-HOT.webp"
       },
       {
         "nombre": "Cheesy bacon",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, doble cheddar y panceta",
-        "image": "./src/img/productos/HAMBURGUESA-CHEESY-BACON.png"
+        "image": "./src/img/productos/HAMBURGUESA-CHEESY-BACON.webp"
       },
       {
         "nombre": "Premium",
         "precio": 19000,
         "categoria": "Hamburguesas",
         "descripcion": "Molleja, tomate, queso tybo, rúcula y huevo",
-        "image": "./src/img/productos/HAMBURGUESA-PREMIUM.png"
+        "image": "./src/img/productos/HAMBURGUESA-PREMIUM.webp"
       },
       {
         "nombre": "Verde",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, cheddar, palta, tomate, cebolla morada y rúcula",
-        "image": "./src/img/productos/HAMBURGUESA-VERDE.png"
+        "image": "./src/img/productos/HAMBURGUESA-VERDE.webp"
       },
       {
         "nombre": "Tropical",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, ananá, panceta, tomate y cheddar",
-        "image": "./src/img/productos/hamburguesa-tropical.jpg"
+        "image": "./src/img/productos/hamburguesa-tropical.webp"
       },
       {
         "nombre": "Bosque",
         "precio": 22000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, champignon, cebolla morada, crema, rúcula, palta y tomate",
-        "image": "./src/img/productos/hamburguesa-bosque.jpg"
+        "image": "./src/img/productos/hamburguesa-bosque.webp"
       },
       {
         "nombre": "Mediterranea",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, queso tybo, aceitunas negras, tomate y alioli",
-        "image": "./src/img/productos/hamburguesa-mediterranea.jpg"
+        "image": "./src/img/productos/hamburguesa-mediterranea.webp"
       },
       {
         "nombre": "Salmonetta",
         "precio": 22000,
         "categoria": "Hamburguesas",
         "descripcion": "Salmón, queso crema, rúcula, palta y tomate",
-        "image": "./src/img/productos/SALMONETTA.png"
+        "image": "./src/img/productos/SALMONETTA.webp"
       },
       {
         "nombre": "Fundida",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, cheddar, queso tybo, muzzarella, provoleta",
-        "image": "./src/img/productos/hamburguesa-fundida.jpg"
+        "image": "./src/img/productos/hamburguesa-fundida.webp"
       },
       {
         "nombre": "Criolla",
         "precio": 16000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de carne, jamón, huevo y salsa criolla",
-        "image": "./src/img/productos/hamburguesa-criolla.jpg"
+        "image": "./src/img/productos/hamburguesa-criolla.webp"
       },
       {
         "nombre": "Crispy",
         "precio": 17000,
         "categoria": "Hamburguesas",
         "descripcion": "Doble medallón de pollo, tomate, lechuga, jamón, queso y huevo",
-        "image": "./src/img/productos/hamburguesa-crispy.jpg"
+        "image": "./src/img/productos/hamburguesa-crispy.webp"
       },
       {
         "nombre": "Medallón extra",
         "precio": 3000,
         "categoria": "Adicionales",
         "descripcion": null,
-        "image": "./src/img/productos/MEDALLON.png"
+        "image": "./src/img/productos/MEDALLON.webp"
       },
       {
         "nombre": "Lomo Completo",
         "precio": 18500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso y huevo",
-        "image": "./src/img/productos/LOMO_COMPLETO.png"
+        "image": "./src/img/productos/LOMO_COMPLETO.webp"
       },
       {
         "nombre": "Lomo de Cerdo",
         "precio": 16500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo de cerdo, lechuga, tomate, jamón, queso y huevo",
-        "image": "./src/img/productos/LOMO_CERDO.png"
+        "image": "./src/img/productos/LOMO_CERDO.webp"
       },
       {
         "nombre": "Lomo Tropical",
         "precio": 19500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y ananá",
-        "image": "./src/img/productos/LOMO_TROPICAL.png"
+        "image": "./src/img/productos/LOMO_TROPICAL.webp"
       },
       {
         "nombre": "Lomo Champi",
         "precio": 19500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y champignon",
-        "image": "./src/img/productos/LOMO_CHAMPI.png"
+        "image": "./src/img/productos/LOMO_CHAMPI.webp"
       },
       {
         "nombre": "Lomo Azul",
         "precio": 19500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y roquefort",
-        "image": "./src/img/productos/LOMO_AZUL.png"
+        "image": "./src/img/productos/LOMO_AZUL.webp"
       },
       {
         "nombre": "Sandwich de Mila",
         "precio": 18500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, milanesa de carne, lechuga, tomate, jamón, queso y huevo",
-        "image": "./src/img/productos/sandwich-mila.jpg"
+        "image": "./src/img/productos/sandwich-mila.webp"
       },
       {
         "nombre": "Molleja",
         "precio": 26500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, molleja, lechuga, tomate, jamón, queso y huevo",
-        "image": "./src/img/productos/sandwich-molleja.jpg"
+        "image": "./src/img/productos/sandwich-molleja.webp"
       },
       {
         "nombre": "Lomo Abilu",
         "precio": 19500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, verduras salteadas y panceta",
-        "image": "./src/img/productos/LOMO_ABILU.png"
+        "image": "./src/img/productos/LOMO_ABILU.webp"
       },
       {
         "nombre": "Vegetariano",
         "precio": 15000,
         "categoria": "Sandwiches",
         "descripcion": "Queso Azul, tomates asados, tybo, huevo y rúcula",
-        "image": "./src/img/productos/LOMO_VEGETARIANO.png"
+        "image": "./src/img/productos/LOMO_VEGETARIANO.webp"
       },
       {
         "nombre": "Lomo Pollo",
         "precio": 16500,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, bife de pollo, lechuga, tomate, jamón, queso y huevo",
-        "image": "./src/img/productos/LOMO_POLLO.png"
+        "image": "./src/img/productos/LOMO_POLLO.webp"
       },
       {
         "nombre": "Menú Infantil",
         "precio": 11000,
         "categoria": "Menú Infantil",
         "descripcion": "Burger con Cheddar, papas y un jugo",
-        "image": "./src/img/productos/INFANTIL.png"
+        "image": "./src/img/productos/INFANTIL.webp"
       },
       {
         "nombre": "Papas fritas (Chica)",
         "precio": 7000,
         "categoria": "Papas Fritas",
         "descripcion": null,
-        "image": "./src/img/productos/papas-fritas-chica.jpg"
+        "image": "./src/img/productos/papas-fritas-chica.webp"
       },
       {
         "nombre": "Papas fritas (Grande)",
         "precio": 10000,
         "categoria": "Papas Fritas",
         "descripcion": null,
-        "image": "./src/img/productos/papas-fritas-grande.jpg"
+        "image": "./src/img/productos/papas-fritas-grande.webp"
       },
       {
         "nombre": "Papas con cheddar y panceta",
         "precio": 12000,
         "categoria": "Papas Fritas",
         "descripcion": null,
-        "image": "./src/img/productos/papas-cheddar-panceta.jpg"
+        "image": "./src/img/productos/papas-cheddar-panceta.webp"
       },
       {
         "nombre": "Ensalada Completa",
         "precio": 13000,
         "categoria": "Ensaladas",
         "descripcion": "Lechuga, tomate, cebolla, huevo, zanahoria, jamón, queso, choclo y palmitos",
-        "image": "./src/img/productos/ensalada-completa.jpg"
+        "image": "./src/img/productos/ensalada-completa.webp"
       },
       {
         "nombre": "Ensalada Mixta",
         "precio": 6500,
         "categoria": "Ensaladas",
         "descripcion": "Lechuga, tomate, cebolla, huevo y zanahoria",
-        "image": "./src/img/productos/ensalada-mix.jpg"
+        "image": "./src/img/productos/ensalada-mix.webp"
       },
       {
         "nombre": "Ensalada Rúcula",
         "precio": 7500,
         "categoria": "Ensaladas",
         "descripcion": "Hojas de rúcula, hebras de parmesano y huevo",
-        "image": "./src/img/productos/ensalada-rucula.jpg"
+        "image": "./src/img/productos/ensalada-rucula.webp"
       },
       {
         "nombre": "Rabas",
         "precio": 21000,
         "categoria": "Otros Platos",
         "descripcion": null,
-        "image": "./src/img/productos/rabas.jpg"
+        "image": "./src/img/productos/rabas.webp"
       },
       {
         "nombre": "Budín de pan",
         "precio": 4500,
         "categoria": "Postres",
         "descripcion": null,
-        "image": "./src/img/productos/BUDIN.png"
+        "image": "./src/img/productos/BUDIN.webp"
       }
     ]
   }
