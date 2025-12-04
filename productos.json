@@ -358,13 +358,6 @@
         "image": "./src/img/productos/hamburguesa-mediterranea.webp"
       },
       {
-        "nombre": "Salmonetta",
-        "precio": 22000,
-        "categoria": "Hamburguesas",
-        "descripcion": "Salmón, queso crema, rúcula, palta y tomate",
-        "image": "./src/img/productos/SALMONETTA.webp"
-      },
-      {
         "nombre": "Fundida",
         "precio": 17000,
         "categoria": "Hamburguesas",
@@ -394,42 +387,42 @@
       },
       {
         "nombre": "Lomo Completo",
-        "precio": 18500,
+        "precio": 20000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso y huevo",
         "image": "./src/img/productos/LOMO_COMPLETO.webp"
       },
       {
         "nombre": "Lomo de Cerdo",
-        "precio": 16500,
+        "precio": 17000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo de cerdo, lechuga, tomate, jamón, queso y huevo",
         "image": "./src/img/productos/LOMO_CERDO.webp"
       },
       {
         "nombre": "Lomo Tropical",
-        "precio": 19500,
+        "precio": 21000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y ananá",
         "image": "./src/img/productos/LOMO_TROPICAL.webp"
       },
       {
         "nombre": "Lomo Champi",
-        "precio": 19500,
+        "precio": 21000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y champignon",
         "image": "./src/img/productos/LOMO_CHAMPI.webp"
       },
       {
         "nombre": "Lomo Azul",
-        "precio": 19500,
+        "precio": 21000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, queso, huevo y roquefort",
         "image": "./src/img/productos/LOMO_AZUL.webp"
       },
       {
         "nombre": "Sandwich de Mila",
-        "precio": 18500,
+        "precio": 20000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, milanesa de carne, lechuga, tomate, jamón, queso y huevo",
         "image": "./src/img/productos/sandwich-mila.webp"
@@ -443,21 +436,21 @@
       },
       {
         "nombre": "Lomo Abilu",
-        "precio": 19500,
+        "precio": 21000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, lomo, lechuga, tomate, jamón, verduras salteadas y panceta",
         "image": "./src/img/productos/LOMO_ABILU.webp"
       },
       {
         "nombre": "Vegetariano",
-        "precio": 15000,
+        "precio": 16000,
         "categoria": "Sandwiches",
         "descripcion": "Queso Azul, tomates asados, tybo, huevo y rúcula",
         "image": "./src/img/productos/LOMO_VEGETARIANO.webp"
       },
       {
         "nombre": "Lomo Pollo",
-        "precio": 16500,
+        "precio": 17000,
         "categoria": "Sandwiches",
         "descripcion": "Pan casero, mayonesa casera, bife de pollo, lechuga, tomate, jamón, queso y huevo",
         "image": "./src/img/productos/LOMO_POLLO.webp"
