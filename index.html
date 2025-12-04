@@ -1,73 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        <title>The Classic Bar - Menú Digital, Tragos y Comidas | Bialet Massé</title>
-        
-        <meta name="description" content="Descubre el menú de The Classic Bar en Bialet Massé. Las mejores pizzas, hamburguesas, milanesas y tragos. Cocinando con amor desde 2022. ¡Mira nuestra carta digital!">
-        
-        <meta name="keywords" content="The Classic Bar, Bialet Massé, Bar en Bialet Massé, Menú Digital, Hamburguesas, Pizzas, Tragos, Carta Online">
-        
-        <meta name="author" content="The Classic Bar">
-        <meta name="robots" content="index, follow">
-        
-        <meta property="og:type" content="restaurant.menu">
-        <meta property="og:title" content="The Classic Bar - Menú Digital">
-        <meta property="og:description" content="🍔 Hamburguesas, 🍕 Pizzas y 🍹 Tragos. ¡Mira nuestra carta completa aquí!">
-        <meta property="og:image" content="./src/img/logo.png"> <meta property="og:url" content="https://tudominio.com"> <meta property="og:site_name" content="The Classic Bar">
-        <meta property="og:locale" content="es_AR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Classic Bar - Menú Digital</title>
+    <meta name="description" content="Descubre el menú de The Classic Bar en Bialet Massé. Hamburguesas, Pizzas, Tragos y más.">
+    <meta name="theme-color" content="#0d0d0d">
     
-        <link rel="stylesheet" href="./src/css/minify.css">
-        <script src="./src/js/minify.js" defer></script> <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
     
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Restaurant",
-          "name": "The Classic Bar",
-          "image": [
-            "https://tudominio.com/src/img/logo.png"
-          ],
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Tu Dirección Exacta Aquí",
-            "addressLocality": "Bialet Massé",
-            "addressRegion": "Córdoba",
-            "postalCode": "5158",
-            "addressCountry": "AR"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": -31.3117, 
-            "longitude": -64.4627
-          },
-          "url": "https://tudominio.com",
-          "servesCuisine": "Bar, Pizza, Hamburguesas",
-          "priceRange": "$$",
-          "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-              ],
-              "opens": "19:00",
-              "closes": "02:00"
-            }
-          ],
-          "menu": "https://tudominio.com"
-        }
-        </script>
-    </head>
+    <link rel="preload" href="productos.json" as="fetch" crossorigin>
+    
+    <link rel="stylesheet" href="./src/css/minify.css">
+    <script src="./src/js/minify.js" defer></script> 
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+
+    <meta property="og:type" content="restaurant.menu">
+    <meta property="og:title" content="The Classic Bar - Menú Digital">
+    <meta property="og:description" content="Hamburguesas, Pizzas y Tragos. ¡Mira nuestra carta completa!">
+    <meta property="og:image" content="./src/img/logo.png">
+</head>
 <body>
     <header>
         <h1 class="neon-title" id="mainTitle">THE CLASSIC BAR</h1>
-        <img src="./src/img/logo.png" class="logo" alt="The Classic Bar Logo" />
+        <img src="./src/img/logo.png" class="logo" alt="The Classic Bar Logo" width="160" height="160" />
         <p class="subtitle">DRINKS & FOOD - EST. 2025</p>
         <p class="subtitle">Cocinando con Amor desde 2022</p>
         <p class="subtitle">BIALET MASSE</p>
@@ -89,7 +47,7 @@
         <button class="filter-btn carta-btn" data-category="carta" id="cartaBtn">📄 Carta PDF</button>
     </nav>
 
-    <button class="hamburger-btn" id="hamburgerBtn">
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Abrir menú">
         <span></span>
         <span></span>
         <span></span>
@@ -119,17 +77,12 @@
         
         <div class="pdf-viewer">
             <iframe 
-                src="./src/Carta.pdf" 
+                src="" 
                 class="pdf-iframe" 
                 id="pdfViewer"
                 title="Carta PDF"
-            >
-                <p>Tu navegador no soporta la visualización de PDFs. 
-                    <a href="./src/Carta.pdf" class="download-link" download>
-                        Descarga la carta aquí
-                    </a>
-                </p>
-            </iframe>
+                loading="lazy"
+            ></iframe>
         </div>
         
         <div class="carta-actions">
@@ -141,9 +94,9 @@
     </div>
 
     <div class="photo-modal" id="photoModal">
-        <button class="close-modal" id="closeModal">&times;</button>
+        <button class="close-modal" id="closeModal" aria-label="Cerrar">&times;</button>
         <div class="modal-content">
-            <img class="modal-image" id="modalImage" src="" alt="Foto del producto" />
+            <img class="modal-image" id="modalImage" src="" alt="" loading="lazy" />
             <div class="modal-info">
                 <h3 class="modal-title" id="modalTitle"></h3>
                 <p class="modal-desc" id="modalDesc"></p>
